@@ -6,13 +6,13 @@ function Portfolio(){
       <h2 className='portfolio__title'>Портфолио</h2>
       <ul className='portfolio__list'>
         <li className='portfolio__item'>
-          <a href='#' className='portfolio__link'>Статичный сайт</a>
+          <a href='https://kachmaz.nomoredomainsmonster.ru/' target='_blank' className='portfolio__link' rel="noreferrer">Статичный сайт</a>
         </li>
         <li className='portfolio__item'>
-          <a href='#' className='portfolio__link'>Адаптивный сайт</a>
+          <a href='https://kachmaz.nomoredomainsmonster.ru/' target='_blank' className='portfolio__link' rel="noreferrer">Адаптивный сайт</a>
         </li>
         <li className='portfolio__item'>
-          <a href='#' className='portfolio__link'>Одностраничное приложение</a>
+          <a href='https://kachmaz.nomoredomainsmonster.ru/' target='_blank' className='portfolio__link' rel="noreferrer">Одностраничное приложение</a>
         </li>
       </ul>
     </section>

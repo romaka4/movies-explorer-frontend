@@ -6,7 +6,7 @@ import { Routes, Route, useLocation} from 'react-router-dom';
 function Header() {
   const path = useLocation();
   return (
-    <div className={`header ${path.pathname === '/' ? '' : 'header_auth'}`}>
+    <header className={`header ${path.pathname === '/' ? '' : 'header_auth'}`}>
       <div className='header__navigate'>
         <a href="/#about"><img
           src={logo}
@@ -20,7 +20,7 @@ function Header() {
           <Route path='/profile' element={ <Navigation /> } />
         </Routes>
       </div>
-    </div>
+    </header>
   )
 }
 

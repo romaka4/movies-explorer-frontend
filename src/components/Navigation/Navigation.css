@@ -106,12 +106,12 @@
   display: none;
   background: #00000080;
   justify-content: end;
-  min-height: 1024px;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: #00000080;
-    position: absolute;
+  min-height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #00000080;
+  position: fixed;
 }
 .popup__mobile_active {
   display: flex;

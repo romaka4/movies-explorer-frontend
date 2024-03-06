@@ -39,15 +39,20 @@
   right: 6px;
   cursor: pointer;
 }
+.search__button:hover,
+.search__input:hover{
+  opacity: 80%;
+  transition: 0.3s;
+}
 .search__filter {
   margin-top: 42px;
   display: flex;
   gap: 12px;
 }
-.demoToggleCheckbox {
+.demo-toggle-checkbox {
   display: none;
 }
-.demoToggleCheckbox + label {
+.demo-toggle-checkbox + label {
   display: inline-block;
   width: 36px;
   height: 20px;
@@ -56,7 +61,7 @@
   position: relative;
   cursor: pointer;
 }
-.demoToggleCheckbox + label:after {
+.demo-toggle-checkbox + label:after {
   content: '';
   position: absolute;
   top: 2px;
@@ -67,10 +72,10 @@
   background-color: #fff;
   transition: transform 0.3s;
 }
-.demoToggleCheckbox:checked + label {
+.demo-toggle-checkbox:checked + label {
   background-color: #33c53e;
 }
-.demoToggleCheckbox:checked + label:after {
+.demo-toggle-checkbox:checked + label:after {
   transform: translateX(16px);
 }
 .search__desc{

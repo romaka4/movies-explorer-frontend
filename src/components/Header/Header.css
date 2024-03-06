@@ -30,7 +30,7 @@
     width: calc(100% - 60px);
   }
 }
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 400px) {
   .header__navigate{
     width: calc(100% - 28px);
   }
